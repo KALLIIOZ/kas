@@ -11,7 +11,7 @@ const talentObserver = new IntersectionObserver((entries) => {
             // Función para animar cada div con un retraso
             circles.forEach((circle, index) => {
                 setTimeout(() => {
-                    circle.style.transform = 'scale(2)'; // Crece al tamaño original
+                    circle.style.transform = 'scale(4)'; // Crece al tamaño original
                     circle.style.opacity = 1; // Muestra el div
                 }, index * 500); // Retraso de 0.5 segundos entre cada div
             });
