@@ -50,7 +50,7 @@
 
 /* Estilo del pulgar de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-    background-color: #000000; /* Color del pulgar */
+    background-color: transparent; /* Color del pulgar */
     border-radius: 4px; /* Bordes redondeados */
 }
 
