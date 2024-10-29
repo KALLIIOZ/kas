@@ -27,7 +27,7 @@
 
 .additional-bubbles span {
     margin-top: 5px;
-    font-size: 14px;
+    font-size:20px;
     color: white;
     font-weight: bold;
 }
@@ -48,7 +48,6 @@
 
 /* Estilo para la barra de desplazamiento */
 ::-webkit-scrollbar {
-    margin-top: 10px;
     height: 8px; /* Altura de la barra de desplazamiento */
 }
 

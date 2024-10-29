@@ -11,7 +11,7 @@
     color: #fff; /* Texto blanco */
     padding: 5px 15px; /* Espaciado interno */
     border-radius: 15px; /* Bordes redondeados */
-    font-size: 40px; /* Tamaño de fuente */
+    font-size: 60px; /* Tamaño de fuente */
     margin: 0; /* Elimina el margen */
     display: inline-block; /* Solo ocupa el espacio del contenido */
     margin-left: 230px;
@@ -27,7 +27,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
     transition: box-shadow 0.3s ease;
-    margin-left: 160px;
+    margin-left: 20px;
+    margin-right: 115px;
 }
 
 #search-bar:hover {
