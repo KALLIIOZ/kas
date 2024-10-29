@@ -1,0 +1,31 @@
+#about-us {
+    background-color: #fce5d3;
+    padding: 20px;
+    border-radius: 100px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen y el texto en la parte superior */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.about-content img:first-of-type {
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    flex-shrink: 0; /* Evita que la imagen se reduzca */
+}
+
+.about-text {
+    text-align: justify;
+}
+
+
+

@@ -1,0 +1,51 @@
+.row-1 {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.row-2 {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+.row-1 div, .row-2 div {
+    display: flex;
+    flex-direction: column; /* Coloca el span debajo de la imagen */
+    align-items: center; /* Centra la imagen y el span horizontalmente */
+    text-align: center; /* Centra el texto en el span */
+    transform: scale(0); /* Tamaño inicial */
+    transition: transform 1s ease-out; /* Duración de la animación */
+    opacity: 0; /* Oculto al principio */
+}
+
+.row-1 div img, .row-2 div img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.row-1 div span, .row-2 div span {
+    margin-top: 10px;
+}
+
+@keyframes grow {
+    from {
+      transform: scale(0); /* Comienza en tamaño 0 */
+    }
+    to {
+      transform: scale(2); /* Crece 5 veces su tamaño original */
+    }
+  }

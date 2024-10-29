@@ -1,0 +1,71 @@
+#talent-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espacio entre el h2 y la barra de búsqueda */
+    margin-top: 100px;
+}
+
+#talent-section h2 {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 5px 15px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    font-size: 40px; /* Tamaño de fuente */
+    margin: 0; /* Elimina el margen */
+    display: inline-block; /* Solo ocupa el espacio del contenido */
+    margin-left: 230px;
+}
+
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    margin-left: 160px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: transparent;
+    width: 0;
+    transition: width 0.4s ease; /* Animación de expansión */
+    opacity: 0;
+}
+
+#search-bar.expanded .search-input {
+    width: 200px; /* Ancho final cuando se expande */
+    opacity: 1;
+}
+
+#search-bar button {
+    background-color: #c0c0c0;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    margin-left: 8px;
+}
+
+#search-bar button:hover {
+    background-color: #45a049;
+}
+

@@ -1,0 +1,19 @@
+#clients {
+    background-color: #000; /* Fondo negro */
+    padding: 20px;
+    border-top: 3px solid #00aaff; /* Borde superior en azul claro */
+    text-align: center;
+}
+
+.clients-logos {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Espacio de 100px entre los logos */
+    align-items: center;
+}
+
+.clients-logos img {
+    width: 100px; /* Ajusta el tamaño de los logos */
+    height: auto;
+    filter: brightness(0) invert(1); /* Hace los logos blancos para que resalten sobre el fondo negro */
+}

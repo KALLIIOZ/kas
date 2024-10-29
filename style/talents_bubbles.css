@@ -1,0 +1,71 @@
+.bubble-container {
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    white-space: nowrap; /* Evita que los elementos se rompan en varias líneas */
+}
+
+.additional-bubbles {
+    display: flex;
+    gap: 100px; /* Espacio entre cada burbuja */
+    justify-content: flex-start; /* Alinea a la izquierda para el desplazamiento horizontal */
+    margin: 50px;
+}
+
+.additional-bubbles div {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra la imagen y el texto */
+    text-align: center;
+}
+
+
+.additional-bubbles img {
+    width: 150px; /* Tamaño de las imágenes */
+    height: 150px;
+    border-radius: 50%; /* Hace que las imágenes sean circulares */
+    object-fit: cover; /* Ajusta la imagen para que se centre dentro del círculo */
+}
+
+.additional-bubbles span {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#about-us .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#about-us .logo-container img {
+    width: 100px; /* Ajusta el tamaño del logo si es necesario */
+    height: auto;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+
+/* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+    margin-top: 10px;
+    height: 8px; /* Altura de la barra de desplazamiento */
+}
+
+/* Estilo de la pista de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Color de fondo de la pista */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo del pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Color del pulgar */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo cuando se pasa el cursor por encima del pulgar */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color cuando se pasa el cursor por encima */
+}
+
