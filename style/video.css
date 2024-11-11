@@ -1,7 +1,7 @@
 #video {
     position: relative;
     width: 99.2vw;
-    height: 100vh;
+    height: 110vh;
     overflow: hidden; /* Evita que el video se desborde del contenedor */
 }
 
